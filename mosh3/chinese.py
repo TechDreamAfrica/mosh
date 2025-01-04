@@ -1,0 +1,35 @@
+english_chinese = [
+    ("Hello", "你好 (Nǐ hǎo)"),
+    ("Thank you", "谢谢 (Xièxiè)"),
+    ("Goodbye", "再见 (Zàijiàn)"),
+    ("Yes", "是 (Shì)"),
+    ("No", "不是 (Bù shì)"),
+    ("Please", "请 (Qǐng)"),
+    ("Sorry", "对不起 (Duìbùqǐ)"),
+    ("Excuse me", "劳驾 (Láojià)"),
+    ("How much?", "多少钱? (Duōshǎo qián?)"),
+    ("Friend", "朋友 (Péngyǒu)"),
+    ("Family", "家庭 (Jiātíng)"),
+    ("Love", "爱 (Ài)"),
+    ("Food", "食物 (Shíwù)"),
+    ("Water", "水 (Shuǐ)"),
+    ("Hotel", "酒店 (Jiǔdiàn)"),
+    ("Book", "书 (Shū)"),
+    ("Car", "汽车 (Qìchē)"),
+    ("Airport", "机场 (Jīchǎng)"),
+    ("School", "学校 (Xuéxiào)"),
+    ("Teacher", "老师 (Lǎoshī)"),
+    ("Student", "学生 (Xuéshēng)"),
+    ("Happy", "高兴 (Gāoxìng)"),
+    ("Sad", "难过 (Nánguò)"),
+    ("Morning", "早上 (Zǎoshang)"),
+    ("Night", "晚上 (Wǎnshàng)"),
+    ("Beautiful", "美丽 (Měilì)"),
+    ("Peace", "和平 (Hépíng)"),
+    ("Health", "健康 (Jiànkāng)"),
+    ("Success", "成功 (Chénggōng)"),
+    ("Dream", "梦想 (Mèngxiǎng)")
+]
+
+hello = [english for english in english_chinese if english_chinese[0] == "Hello"]
+print(hello)
